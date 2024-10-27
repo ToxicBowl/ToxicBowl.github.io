@@ -1,0 +1,22 @@
+body{
+  background-color: black;
+}
+div{
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 102%;
+
+}
+
+
+button{
+    margin: 0 auto;
+   display: block;
+   margin-top: 50px;
+}
+
+img{
+  margin: 0 auto;
+  display: block;
+  margin-top: 50px;
+}

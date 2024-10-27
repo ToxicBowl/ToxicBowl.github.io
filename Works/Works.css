@@ -1,0 +1,63 @@
+body{
+  background: url("../AboutMe/earth.jpg") no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ margin: 0;
+}
+
+img {
+  border: 10px solid white;
+
+}
+a{
+  color: white;
+}
+
+span {
+  width:355px;
+}
+/*Navigation Bar Styling*/
+.topnav {
+  overflow: hidden;
+    background-color: #000000;
+}
+
+/*Style topnav links*/
+.topnav a{
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover*/
+.topnav a:hover {
+  background-color: #DAA520;
+  color: #black;
+}
+
+/* Contains contents within a restricted space */
+.article{
+    display: inline-flex;
+  text-align: center;
+    padding: 150px;
+
+  }
+
+/*Creates a fade in animation */
+.fadein{
+  animation-name: fadeIn;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in-out;
+      animation-duration: 2s;
+      animation-fill-mode:forwards;
+}
+
+@keyframes fadeIn {
+    0% {opacity: -1;}
+    100% {opacity: 1;}
+}

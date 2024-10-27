@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Cool Game</title>
+      <link href="game1.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+<button  id="change" onclick="change()"> Click here or you lose</button>
+<a href="game1LOSE/gameover.html">
+<div id="wholediv">
+<img src="YouWin.jpg" id="img1" alt= winpic style="visibility: hidden;" ><img>
+<br>
+<img src="thanos-fortnite.gif" id="img2" alt= winpic style="visibility: hidden;" ><img>
+
+<script>
+function change(){
+
+    document.body.style.backgroundColor = "white";
+    document.getElementById('wholediv').style.backgroundColor = "transparent";
+    document.body.style.backgroundImage = "url('confetti.gif')";
+    document.getElementById("img1").style.visibility="visible";
+    document.getElementById("img2").style.visibility="visible";
+    var audio = new Audio("FF14Victory.mp3");
+    audio.play("FF14Victory.mp3");
+}
+</script>
+</div>
+</a>
+  </body>
+</html>

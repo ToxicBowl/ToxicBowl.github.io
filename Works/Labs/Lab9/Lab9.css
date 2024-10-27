@@ -1,0 +1,67 @@
+/* This is the css style for lab 9 */
+
+/*p css affects all p tag*/
+p{
+  text-align: center;
+  color: Red;
+  transform: translate(-25px,15px);
+  transition-duration: 17000ms;
+  transform: scale3d(10,15,2);
+}
+/*div css affects all div tag*/
+div{
+  text-align: center;
+  color: blue;
+  border-style: solid;
+  border-width: 20px;
+  background-color: red;
+  width: 50px;
+  height: 75px;
+  transform-origin: 1000px;
+  transition-duration: 7000ms;
+}
+/* affects all h1 tags */
+h1{
+  color: #0ff392;
+  margin: 20px;
+  padding: 15px;
+  transform: translate(50px, 15px);
+  transform: rotate(180deg);
+  transition-duration: 15000ms;
+}
+/* makes changes to respctive ids */
+#sp{
+  color: #576;
+  transform: rotate(360deg);
+  transition-duration: 5000ms;
+  width: 50px;
+  height: 75px;
+  transform-origin: 20px;
+}
+
+#dwt{
+  color:#5e5439;
+  background-color: lightblue;
+  transform: rotate3d(15, 5, 10, 90deg);
+  transition-duration: 15000ms;
+  width: 50px;
+  height: 75px;
+  transform-origin: 30px;
+}
+
+#two{
+  color: rgb(158, 17, 209);
+  background-color: green;
+  transform: rotate(360deg);
+  transition-duration: 1000ms;
+  width: 50px;
+  height: 75px;
+  transform-origin: 40px;
+}
+/*makes changes to class: hw */
+.hw{
+  width: 50px;
+  height: 75px;
+  color: #f5bfbf;
+  transform-origin: 30px;
+}

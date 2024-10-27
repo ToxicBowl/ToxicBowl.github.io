@@ -1,0 +1,64 @@
+h1 {
+  font-family: Georgia, serif;
+  font-size: 90px;
+  text-align: center;
+  color: white;
+}
+
+body{
+  background: url("starfall.gif") no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+
+}
+
+
+
+a {
+
+    font-size: 40px;
+    color: white;
+  }
+
+.tbg {
+  float: right;
+  background-color: white;
+    width: 500px;
+    border: 15px solid gray;
+    padding: 50px;
+  background-image: url("me.jpg");
+  background-position: center;
+  opacity: 100%;
+  background-size: 600px;
+  background-repeat: no-repeat;
+
+}
+
+.tbg2 {
+  float: left;
+  background-color: white;
+    width: 500px;
+    border: 15px solid gray;
+    padding: 50px;
+  background-image: url("code.png");
+  background-position: center;
+  opacity: 100%;
+  background-size: 600px;
+}
+
+
+
+.fadein{
+  animation-name: fadeIn;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in-out;
+      animation-duration: 3s;
+      animation-fill-mode:forwards;
+}
+
+@keyframes fadeIn {
+    0% {opacity: -1;}
+    100% {opacity: 1;}
+}

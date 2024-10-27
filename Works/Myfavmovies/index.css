@@ -1,0 +1,34 @@
+
+
+body{
+  margin: 0;
+  background-color: #6F0000;
+}
+
+/*Header Styling*/
+.header {
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+/*Navigation Bar Styling*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  color: white;
+  font-family: Georgia, serif;;
+}
+
+
+.zoom {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: 400px;
+  height: 200px;
+
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom)*/
+}
